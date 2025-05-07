@@ -67,6 +67,9 @@
     box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -80,6 +83,7 @@
 
 
 .header .container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -145,10 +149,15 @@
 }
 
 
+.hero .container {
+    text-align: center;
+}
+
 .hero .container h1 {
     text-transform: uppercase;
     font-weight: bold;
 }
+
 
 
 /* About section */
